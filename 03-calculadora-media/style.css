@@ -111,6 +111,21 @@ button:hover {
   justify-content: center;
 }
 
+.resultado.corAprovado {
+  border: 2px solid #14532d;
+  box-shadow: inset 0 0 16px #14532d;
+}
+
+.resultado.corRecuperacao {
+  border: 2px solid #713f12;
+  box-shadow: inset 0 0 16px #713f12;
+}
+
+.resultado.corReprovado {
+  border: 2px solid #7f1d1d;
+  box-shadow: inset 0 0 16px #7f1d1d;
+}
+
 footer {
   display: flex;
   align-items: flex-end;
